@@ -1,44 +1,64 @@
 // Story database with harrowing tales
 const stories = [
     {
-        text: "In 1971, a family moved into a farmhouse in Harrisville, Rhode Island. They reported experiencing paranormal activity including furniture moving on its own, mysterious smells, and the appearance of spirits. The family claimed to be tormented by a malevolent entity for years until paranormal investigators Ed and Lorraine Warren helped them.",
+        text: "In 1587, the entire population of Roanoke Colony in Virginia vanished without explanation. When supply ships returned three years later, they found the settlement abandoned with only the word 'CROATOAN' carved into a post. No bodies were ever discovered, and the fate of over 100 colonists remains unknown to this day.",
         isTrue: true,
-        details: "This is the true story of the Perron family, which inspired the 2013 horror film 'The Conjuring.' The family lived in the house for a decade, and Carolyn Perron reported being possessed by the spirit of Bathsheba Sherman, a 19th-century woman suspected of practicing witchcraft."
+        details: "The Lost Colony of Roanoke is one of America's oldest unsolved mysteries. Governor John White returned from England in 1590 to find the colony deserted. Despite numerous theories ranging from assimilation with Native American tribes to Spanish attacks, no definitive evidence has ever been found to explain the disappearance."
     },
     {
-        text: "A Tokyo apartment building had to be demolished in 2019 after every tenant on the 13th floor reported seeing the same ghostly woman in traditional dress walking through their walls at exactly 3:33 AM. The city council determined it was safer to tear down the building than risk further incidents.",
+        text: "During renovations of Edinburgh Castle in 2001, workers discovered a hidden chamber sealed since the 1650s. Inside was a journal belonging to a plague doctor, detailing his experimental treatments on victims. The final entry, dated the day before the chamber was sealed, simply read: 'The cure works, but at what cost? God forgive me, they are no longer human.'",
         isTrue: false,
         details: null
     },
     {
-        text: "In 1967, two volunteers at a church in Barbados opened a sealed tomb that hadn't been disturbed in decades. Inside, all eight lead coffins had moved from their original positions, some standing upright. The coffins were too heavy for one person to move, and there were no signs of forced entry or flooding.",
+        text: "In 1872, the merchant ship Mary Celeste was found adrift in the Atlantic Ocean. The vessel was seaworthy, cargo intact, and personal belongings undisturbed, but all ten crew members and passengers had vanished. The ship's only lifeboat was missing, yet no distress signal was ever sent. The crew was never found.",
         isTrue: true,
-        details: "The Chase Vault in Christ Church Parish Cemetery, Barbados, is a documented case. Between 1812 and 1820, the vault was opened several times for burials, and each time the coffins were found in disarray. The mystery remained unsolved, and the vault was eventually abandoned in 1820."
+        details: "The Mary Celeste is perhaps history's most famous ghost ship. Captain Benjamin Briggs, his family, and seven crew members disappeared without explanation. Theories range from piracy to underwater earthquakes, but official maritime investigations concluded the abandonment was deliberate, though no motive could be determined."
     },
     {
-        text: "A cruise ship in the Caribbean Sea in 2015 had to return to port when passengers reported that mirrors in cabin 1408 would show reflections of people who weren't there. The ship's captain ordered all mirrors on that deck to be covered, but guests still complained of hearing voices behind the glass.",
+        text: "In 1911, three lighthouse keepers vanished from Flannan Isles in Scotland. Their colleagues found an untouched meal on the table, an overturned chair, and all three sets of waterproof gear missing—despite regulations requiring one keeper to remain inside at all times. A log entry mentioned a storm, but weather records show the day was calm.",
+        isTrue: true,
+        details: "The Flannan Isles mystery remains unsolved. The official investigation by the Northern Lighthouse Board found no evidence of foul play. Captain James Harvey reported finding two sets of oilskins missing, suggesting two men went outside, but the third keeper's absence remains unexplained. No bodies were recovered."
+    },
+    {
+        text: "In Victorian London, Dr. Aldous Crowe operated an asylum in Whitechapel where patients reportedly died at an alarming rate. His notebooks, discovered during demolition in 1952, described attempts to 'separate the soul from its mortal vessel.' Scotland Yard found evidence of mass graves beneath the building, containing over 200 bodies.",
         isTrue: false,
         details: null
     },
     {
-        text: "In 1952, police in California investigated a case where a woman reported that invisible forces were attacking her. Officers witnessed objects flying through the air, and one officer was struck by a flying kitchen knife. The phenomenon continued for weeks and was documented in official police reports.",
+        text: "The Overtoun Bridge in Scotland has been the site of over 600 documented cases of dogs suddenly leaping to their deaths since the 1950s. The animals show no signs of distress before jumping, and always from the same spot on the right side of the bridge. Several dogs have survived and immediately attempted to jump again.",
         isTrue: true,
-        details: "This is the case of Doris Bither, which occurred in Culver City, California, in 1974 (not 1952). The case was investigated by paranormal researchers Kerry Gaynor and Barry Taff, who photographed mysterious light phenomena in the house. The case inspired the 1982 film 'The Entity.'"
+        details: "Overtoun Bridge's canine suicide phenomenon is well-documented by the Scottish SPCA. While paranormal theories abound, researchers believe minks nesting below the bridge emit a scent that dogs find irresistible, causing them to leap without seeing the drop. The frequency remains unusually high compared to similar structures."
     },
     {
-        text: "A lighthouse keeper in Maine vanished in 1988 after reporting in his log that he could hear tapping sounds coming from inside the lighthouse walls. His last entry read: 'They're in the walls. They want out.' His body was never found, but his logbook was discovered in a sealed room at the top of the lighthouse.",
+        text: "During the renovation of Château de Brissac in France in 1897, workers unearthed a bricked-up room containing the skeletal remains of a woman in a green dress. Parish records revealed she was the illegitimate daughter of the Duke, murdered in 1462. Since the discovery, staff and visitors report seeing a woman in green wandering the halls, moaning softly.",
         isTrue: false,
         details: null
     },
     {
-        text: "In Romania in the 1970s, a photograph was taken at a military installation that appeared to show a disc-shaped UFO. The photo was classified by the government and only recently declassified. Military personnel at the base reported equipment malfunctions and missing time during the sighting.",
+        text: "In 1945, five U.S. Navy bombers vanished during a routine training flight over the Bermuda Triangle. The lead pilot reported his compass malfunctioning and claimed they couldn't determine which way was west. Radio contact was lost, and no wreckage was ever found. A rescue plane sent to find them also disappeared with 13 crew members aboard.",
         isTrue: true,
-        details: "Multiple UFO sightings were reported in Romania during the Cold War era, and the Romanian government did classify various UFO-related documents. However, specific details vary by case. The most famous Romanian UFO case occurred in Transylvania in the 1960s-70s, with photographs that remain unexplained."
+        details: "Flight 19's disappearance remains one of the most documented incidents in the Bermuda Triangle. The Naval Board of Inquiry's original verdict blamed the flight leader's confusion and judgment, though this was later changed to 'causes unknown' due to family pressure. Despite extensive searches, neither the bombers nor the rescue plane were recovered."
     },
     {
-        text: "A family in Scotland bought an antique mirror at an estate sale in 2012. Within days, their pets refused to enter the room where it hung. Family members reported feeling watched and seeing shadows move across the mirror's surface even when the room was empty. They eventually burned the mirror, and the activity stopped.",
+        text: "In the catacombs beneath Paris, urban explorers in 2004 discovered a fully equipped cinema hidden in a restricted section, complete with a screen, seats carved from stone, and a bar. When authorities investigated three days later, everything had been removed except a note on the floor reading: 'Ne cherchez pas.' Do not search.",
+        isTrue: true,
+        details: "The underground cinema was discovered by Parisian police during a training exercise. The setup included professionally installed electrical systems, a stocked bar, and recent films. The group responsible, believed to be an underground art collective called 'Les UX,' has never been identified, and they continue operating in the catacombs."
+    },
+    {
+        text: "Poveglia Island near Venice was used as a quarantine station during the Black Death, then as an asylum in the 1920s. The asylum's chief physician, Dr. Vicenzo Orsini, allegedly conducted lobotomies without anesthesia. In 1937, patients rioted and forced him from the bell tower. His ghost now rings the bell at midnight—despite the tower being dismantled in 1950.",
         isTrue: false,
         details: null
+    },
+    {
+        text: "In 2007, the body of Elisa Lam was found in the water tank on the roof of the Cecil Hotel in Los Angeles. Security footage showed her behaving erratically in the elevator, pressing multiple buttons and appearing to hide from someone unseen. The roof access required a key, and the water tank's hatch was heavy enough to require two people to lift.",
+        isTrue: true,
+        details: "Elisa Lam's death was ruled accidental drowning with bipolar disorder as a significant factor. However, numerous questions remain about how she accessed the locked roof and climbed into the sealed tank. The elevator footage sparked widespread speculation, though experts suggest it's consistent with a mental health episode."
+    },
+    {
+        text: "The Winchester Mystery House in California was built by Sarah Winchester, widow of the rifle magnate, who believed she was haunted by victims of Winchester rifles. A medium told her to continuously build rooms to confuse the spirits. Construction continued 24 hours a day for 38 years, creating staircases to nowhere and doors opening to walls.",
+        isTrue: true,
+        details: "Sarah Winchester's architectural oddity is a real mansion in San Jose. After her husband and infant daughter died, she allegedly consulted a medium who warned her of vengeful spirits. Whether she truly believed in the curse or was simply an eccentric architect is debated, but construction stopped only when she died in 1922."
     }
 ];
 
