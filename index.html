@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost Stories - True or False?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>👻 Ghost Stories 👻</h1>
+            <div class="score-board">
+                <span class="score-label">Consecutive Correct:</span>
+                <span class="score" id="score">0</span>
+            </div>
+        </header>
+
+        <main id="game-container">
+            <div id="story-section" class="section">
+                <div class="story-box">
+                    <p id="story-text" class="story-text"></p>
+                </div>
+                
+                <div id="question-section" class="question-section">
+                    <h2>Do you believe this story is true?</h2>
+                    <div class="button-group">
+                        <button id="true-btn" class="answer-btn true-btn">TRUE</button>
+                        <button id="false-btn" class="answer-btn false-btn">FALSE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="reveal-section" class="section hidden">
+                <div class="reveal-box">
+                    <h2 id="result-title" class="result-title"></h2>
+                    <p id="result-text" class="result-text"></p>
+                    <div id="details-box" class="details-box hidden">
+                        <h3>📖 The Real Story</h3>
+                        <p id="details-text"></p>
+                    </div>
+                    <button id="next-btn" class="next-btn">Next Story →</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
